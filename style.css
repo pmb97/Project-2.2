@@ -1,0 +1,157 @@
+
+.navbar-brand, .navar-expand-sm {
+  color: rgba(255,255,255,.7);
+  letter-spacing: 0.5em;
+}
+.navbar-toggler, .navbar-toggler-icon {
+   border-color: #ddd;
+}
+
+.navbar-toggler-icon {
+  color: gray;
+}
+
+html, body {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.navbar {
+  border:  1px solid rgba(255,255,255,.3);
+  background-color: transparent;
+}
+
+ul li {
+  padding-right: 10px;
+  color: inherit
+}
+
+.header {
+  background-position: center;
+  background-size: cover;
+  background-image: url('http://free-templates.me/website-templates/download/business-2/images/header.jpg');
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  position: static;
+  top: 0;
+  left:0;
+  z-index: 1000;
+}
+
+@media (min-width: 768px) {
+  .header-content h1 {
+    font-size: 90px;
+    top: 40%;
+  }
+}
+
+
+.header-content {
+  padding-top: 50px;
+
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 1.5
+
+}
+
+.btn {
+  border-radius: 300px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+}
+.btn-primary {
+    border-color: yellowgreen;
+    color: #fff;
+    background-color: yellowgreen;
+}
+
+.sizing {
+   padding-top: 70px;
+   padding-bottom: 70px;
+}
+
+.intro {
+  background-color: yellowgreen;
+  color: #fff;
+}
+
+i {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+ .text-light {
+  color: rgba(255,255,255,.7)!important;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.lead {
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.text-muted {
+  color: #777 !important;
+}
+
+.content-2 {
+  background-color: #222;
+  color : #fff;
+}
+
+.rounded-pill {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.primary {
+  color: yellowgreen;
+}
+
+.item-1 {
+  background: url('http://free-templates.me/website-templates/download/business-2/images/writing.jpg');
+}
+
+.item-2 {
+  background: url('http://free-templates.me/website-templates/download/business-2/images/concert.jpg');
+}
+
+.item-3 {
+  background: url('http://free-templates.me/website-templates/download/business-2/images/pencil_sharpener.jpg');
+}
+
+
+.item-1, .item-2, .item-3 {
+  background-size: cover;
+  background-position:center;
+
+}
+
+.pic-item {
+  min-height: 200px;
+  line-height: 180px;
+  text-align: center;
+}
+
+.pic-item h3 {
+  font-size: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+.plus {
+  text-shadow: 0px 0px 40px black;
+  text-decoration: none;
+}
