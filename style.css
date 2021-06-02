@@ -91,8 +91,8 @@ i {
 h2 {
   font-size: 30px;
 }
- .text-light {
-  color: rgba(255,255,255,.7)!important;
+ text-light {
+  color: rgba(255,255,255,.7)
   font-size: 20px;
   line-height: 1.5;
 }
@@ -102,8 +102,8 @@ h2 {
   line-height: 1.4;
 }
 
-.text-muted {
-  color: #777 !important;
+#text-muted {
+  color: #777
 }
 
 .content-2 {
